@@ -91,7 +91,7 @@ h6 {
 
 
 .background-darkgray {
-    background-color: #000;
+    background-color: #fff;
 }
 
 .btn-primary {
@@ -160,9 +160,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #00ff00;
+    border-color: #f6bf01;
     color: #000;
-    background-color: #00ff00;
+    background-color: #fec503;
 }
 
 .btn-xl:active,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
 	    padding: 10px;
         border: 0;
-        background-color: #000;
+        background-color: #fff;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -279,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #000;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -291,7 +291,7 @@ header {
     text-align: center;
     color: #000;
     background-attachment: scroll;
-    background-image: url(../img/pet/oddish.png);
+    background-image: url(../img/TGHeader.png);
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -615,7 +615,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #000;
-    background-color: #000;
+    background-color: #fff;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -689,7 +689,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #000;
+    background-color: #fff;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -699,7 +699,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #000;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
