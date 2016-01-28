@@ -38,7 +38,7 @@ body{
 }
 
 .text-primary {
-    color: #fed136;
+    color: #00ff00;
 }
 
 p {
@@ -59,7 +59,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #00ff00;
 }
 
 a:hover,
@@ -91,16 +91,16 @@ h6 {
 
 
 .background-darkgray {
-    background-color: #222;
+    background-color: #000;
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #00ff00;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
+    color: #000;
+    background-color: #00ff00;
 }
 
 .btn-primary:hover,
@@ -109,7 +109,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
-    color: #fff;
+    color: #000;
     background-color: #fec503;
 }
 
@@ -134,25 +134,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00ff00;
+    background-color: #00ff00;
 }
 
 .btn-primary .badge {
-    color: #fed136;
-    background-color: #fff;
+    color: #00ff00;
+    background-color: #000;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #00ff00;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #fed136;
+    color: #000;
+    background-color: #00ff00;
 }
 
 .btn-xl:hover,
@@ -160,9 +160,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    border-color: #00ff00;
+    color: #000;
+    background-color: #00ff00;
 }
 
 .btn-xl:active,
@@ -186,23 +186,23 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00ff00;
+    background-color: #00ff00;
 }
 
 .btn-xl .badge {
-    color: #fed136;
-    background-color: #fff;
+    color: #00ff00;
+    background-color: #000;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #000;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #00ff00;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -217,17 +217,17 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #00ff00;
+    background-color: #00ff00;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #000;
 
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #00ff00;
 }
 
 .navbar-default .nav li a {
@@ -235,24 +235,24 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #00ff00;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
+    color: #000;
+    background-color: #00ff00;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #000;
     background-color: #fec503;
 }
 
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
 	    padding: 10px;
         border: 0;
-        background-color: #222;
+        background-color: #000;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -279,7 +279,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -289,7 +289,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     background-attachment: scroll;
     background-image: url(../img/pet/oddish.png);
     background-position: center;
@@ -430,7 +430,7 @@ section h3.sectsub {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #000;
 }
 
 #store .store-item .store-link .store-hover .store-hover-content i {
@@ -447,7 +447,7 @@ section h3.sectsub {
     padding: 10px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #000;
 }
 
 #store .store-item .store-caption h4 {
@@ -508,7 +508,7 @@ section h3.sectsub {
 		margin-top: -12px;
 		text-align: center;
 		font-size: 20px;
-		color: #fff;
+		color: #000;
 	}
 
 	#store .store-item .store-link .store-hover .store-hover-content i {
@@ -525,7 +525,7 @@ section h3.sectsub {
 		padding: 10px;
 		max-width: 400px;
 		text-align: center;
-		background-color: #fff;
+		background-color: #000;
 	}
 
 	#store .store-item .store-caption h4 {
@@ -568,7 +568,7 @@ section h3.sectsub {
 
 .officer img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #000;
 }
 
 .officer h4 {
@@ -614,8 +614,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #000;
+    background-color: #000;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -689,7 +689,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #000;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -699,7 +699,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #000;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -712,12 +712,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00ff00;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #00ff00;
 }
 
 img::selection {
@@ -729,6 +729,6 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #00ff00;
 }
 
