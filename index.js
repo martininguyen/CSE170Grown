@@ -4,8 +4,6 @@ var cool = require('cool-ascii-faces');
 var pg = require('pg');
 var handlebars = require('express3-handlebars');
 var path = require('path');
-var officers = require('./information/officers');
-console.log(officers.officers);
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 app.set('views', path.join(__dirname, 'views'));
@@ -37,6 +35,22 @@ app.get('/', function(request, response) {
   // for (i=0; i < times; i++)
   //   result += cool();
   // response.send(result);
+});
+
+app.get('/gallery', function(request, response) {
+	response.render('gallery');
+});
+
+app.get('/home', function(request, response) {
+	response.render('home');
+});
+
+app.get('/shop', function(request, response) {
+	response.render('shop');
+});
+
+app.get('/stages', function(request, response) {
+	response.render('stages');
 });
 
 app.get('/login', function(req, res) {
