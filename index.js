@@ -49,8 +49,8 @@ app.get('/shop', function(request, response) {
 	response.render('shop');
 });
 
-app.get('/stages', function(request, response) {
-	response.render('stages');
+app.get('/field', function(request, response) {
+	response.render('field');
 });
 
 app.get('/login', function(req, res) {
